@@ -1,6 +1,8 @@
 # exampleWeek2_Sort
 Алгоритмы сортировки
 
+![image](https://user-images.githubusercontent.com/77270310/179578139-3a8665b6-d4d3-4e01-9246-a343a1dc29bc.png)
+
 1.1. Задание:
 - Узнать какие бывают алгоритмы сортировки
 
