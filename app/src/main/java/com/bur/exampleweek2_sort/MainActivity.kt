@@ -168,7 +168,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.bubbleSort(arraysCreate.dynamicArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Cортировка пузырьком. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Cортировка пузырьком. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -178,7 +178,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.insertionSort(arraysCreate.dynamicArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка вставками. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Сортировка вставками. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -188,7 +188,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.selectionSort(arraysCreate.dynamicArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка выбором. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Сортировка выбором. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -201,7 +201,7 @@ class MainActivity : AppCompatActivity() {
                     );
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка слиянием. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Сортировка слиянием. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -211,7 +211,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.heapSort(arraysCreate.dynamicArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Пирамидальная сортировка. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Пирамидальная сортировка. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -221,7 +221,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.shakerSort(arraysCreate.dynamicArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Шейкерная сортировка. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Шейкерная сортировка. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -231,7 +231,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.combSort(arraysCreate.dynamicArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка расчёской. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Сортировка расчёской. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -244,7 +244,7 @@ class MainActivity : AppCompatActivity() {
                     );
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Быстрая сортировка. Время выполения алгоритма: " + resultTime + " мс",
+                        "Динамический массив, Быстрая сортировка. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -256,7 +256,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.bubbleSort(arraysCreate.listArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Cортировка пузырьком. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Cортировка пузырьком. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -266,7 +266,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.insertionSort(arraysCreate.listArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка вставками. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Сортировка вставками. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -276,7 +276,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.selectionSort(arraysCreate.listArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка выбором. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Сортировка выбором. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -289,7 +289,7 @@ class MainActivity : AppCompatActivity() {
                     );
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка слиянием. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Сортировка слиянием. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -298,7 +298,7 @@ class MainActivity : AppCompatActivity() {
                     resultTime = algorithms.heapSort(arraysCreate.listArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Пирамидальная сортировка. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Пирамидальная сортировка. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -308,7 +308,7 @@ class MainActivity : AppCompatActivity() {
                         algorithms.shakerSort(arraysCreate.listArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Шейкерная сортировка. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Шейкерная сортировка. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -317,7 +317,7 @@ class MainActivity : AppCompatActivity() {
                     resultTime = algorithms.combSort(arraysCreate.listArrayCreation(arrayNumbers));
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Сортировка расчёской. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Сортировка расчёской. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -330,7 +330,7 @@ class MainActivity : AppCompatActivity() {
                     );
                     Toast.makeText(
                         applicationContext,
-                        "Статический массив, Быстрая сортировка. Время выполения алгоритма: " + resultTime + " мс",
+                        "Список, Быстрая сортировка. Время выполения алгоритма: " + resultTime + " мс",
                         Toast.LENGTH_LONG
                     ).show();
                 }
@@ -362,22 +362,22 @@ class MainActivity : AppCompatActivity() {
 
     private fun chipGroupListener() {
         binding.chipDataTypeGroup.setOnCheckedStateChangeListener { group, checkedIds ->
-            if (chipStatic!!.isChecked) {
+            if (chipList.isChecked) {
                 isStaticArray = true
                 isDynamicArray = false
                 isListArray = false
-            } else if (chipDynamic!!.isChecked) {
+            } else if (chipDynamic.isChecked) {
                 isStaticArray = false
                 isDynamicArray = true
                 isListArray = false
-            } else if (chipList!!.isChecked) {
+            } else if (chipList.isChecked) {
                 isStaticArray = false
                 isDynamicArray = false
                 isListArray = true
             }
         }
         binding.chipAlgorithmGroup.setOnCheckedStateChangeListener { group, checkedIds ->
-            if (bubbleSortChip!!.isChecked) {
+            if (bubbleSortChip.isChecked) {
                 isBubbleSort = true
                 isInsertionSort = false
                 isSelectionSort = false
@@ -386,7 +386,7 @@ class MainActivity : AppCompatActivity() {
                 isShakerSort = false
                 isCombSort = false
                 isQuickSort = false
-            } else if (insertionSortChip!!.isChecked) {
+            } else if (insertionSortChip.isChecked) {
                 isBubbleSort = false
                 isInsertionSort = true
                 isSelectionSort = false
@@ -395,7 +395,7 @@ class MainActivity : AppCompatActivity() {
                 isShakerSort = false
                 isCombSort = false
                 isQuickSort = false
-            } else if (selectionSortChip!!.isChecked) {
+            } else if (selectionSortChip.isChecked) {
                 isBubbleSort = false
                 isInsertionSort = false
                 isSelectionSort = true
@@ -404,7 +404,7 @@ class MainActivity : AppCompatActivity() {
                 isShakerSort = false
                 isCombSort = false
                 isQuickSort = false
-            } else if (mergeSortChip!!.isChecked) {
+            } else if (mergeSortChip.isChecked) {
                 isBubbleSort = false
                 isInsertionSort = false
                 isSelectionSort = false
@@ -413,7 +413,7 @@ class MainActivity : AppCompatActivity() {
                 isShakerSort = false
                 isCombSort = false
                 isQuickSort = false
-            } else if (heapSortChip!!.isChecked) {
+            } else if (heapSortChip.isChecked) {
                 isBubbleSort = false
                 isInsertionSort = false
                 isSelectionSort = false
@@ -422,7 +422,7 @@ class MainActivity : AppCompatActivity() {
                 isShakerSort = false
                 isCombSort = false
                 isQuickSort = false
-            } else if (shakerSortChip!!.isChecked) {
+            } else if (shakerSortChip.isChecked) {
                 isBubbleSort = false
                 isInsertionSort = false
                 isSelectionSort = false
@@ -431,7 +431,7 @@ class MainActivity : AppCompatActivity() {
                 isShakerSort = true
                 isCombSort = false
                 isQuickSort = false
-            } else if (combSortChip!!.isChecked) {
+            } else if (combSortChip.isChecked) {
                 isBubbleSort = false
                 isInsertionSort = false
                 isSelectionSort = false
@@ -440,7 +440,7 @@ class MainActivity : AppCompatActivity() {
                 isShakerSort = false
                 isCombSort = true
                 isQuickSort = false
-            } else if (quickSortChip!!.isChecked) {
+            } else if (quickSortChip.isChecked) {
                 isBubbleSort = false
                 isInsertionSort = false
                 isSelectionSort = false
