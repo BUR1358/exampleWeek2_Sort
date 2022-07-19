@@ -362,7 +362,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun chipGroupListener() {
         binding.chipDataTypeGroup.setOnCheckedStateChangeListener { group, checkedIds ->
-            if (chipList.isChecked) {
+            if (chipStatic.isChecked) {
                 isStaticArray = true
                 isDynamicArray = false
                 isListArray = false
